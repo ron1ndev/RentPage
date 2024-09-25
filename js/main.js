@@ -1153,7 +1153,7 @@ $(function () {
 		var d_height = $(document).height(); // Высота всего документа
 		var e_height = $(countbox).outerHeight(); // Полная высота блока со счетчиками
 		if (w_top + 500 >= e_top || w_height + w_top == d_height || e_height + e_top < w_height) {
-			$({ numberValue: 0 }).animate({ numberValue: 755300 }, {
+			$({ numberValue: 0 }).animate({ numberValue: 75530 }, {
 
 				duration: 2000, // Продолжительность анимации, где 500 - 0.5 одной секунды, то есть 500 миллисекунд 
 				easing: "linear",
